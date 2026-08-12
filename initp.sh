@@ -60,7 +60,4 @@ git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 
 # copy agents.md
-cp ~/ai_files/Agents.template5.md AGENTS.md
-cp AGENTS.md CLAUDE.md
-
-sed -i 's/AGENTS.md/CLAUDE.md/g' CLAUDE.md
+wget -O AGENTS.md https://raw.githubusercontent.com/hoangsoft90/ai_setup/refs/heads/main/AGENTS.md
