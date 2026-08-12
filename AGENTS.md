@@ -1,7 +1,3 @@
-## Cấu hình PATH (BẮT BUỘC)
-Trước BẤT KỲ lệnh nào: 
-`export PATH="/Users/hoang/.nvm/versions/node/v24.18.0/bin:/opt/miniconda3/bin:$PATH"`
-
 ## MỤC LỤC & THỨ TỰ THỰC THI TỔNG THỂ
 
 File này dài vì bao phủ nhiều tình huống — nhưng luồng thực thi cho 1 task **lớn** luôn theo đúng thứ tự sau (không theo thứ tự xuất hiện trong file):
